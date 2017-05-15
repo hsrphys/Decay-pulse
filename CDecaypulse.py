@@ -30,7 +30,7 @@ def cdepus(n,ga,G):
     #    ga=15.0
     #    return array((4.0*n)*(exp((-t**2.0)/2.0)/sqrt(2.0*pi))/(ga+8.0*n*(exp((-t**2.0)/2.0)/sqrt(2.0*pi))),float)
     #    return (4.0*n)*(exp((-t**2.0)/2.0)/sqrt(2.0*pi))/(ga)
-    a=0.0
+    a=1.0
     b=5.0
     N=30000
     h=(b-a)/N
